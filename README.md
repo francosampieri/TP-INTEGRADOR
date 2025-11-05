@@ -12,10 +12,10 @@ El código utiliza **listas, diccionarios, funciones modulares y validaciones de
 -  **Filtrar países:** por continente, rango de población o rango de superficie.  
 -  **Ordenar países:** por nombre, población o superficie, tanto en forma ascendente como descendente.  
 -  **Mostrar estadísticas:** calcula y muestra:
-  - País con mayor y menor población.  
-  - Promedio de población.  
-  - Promedio de superficie.  
-  - Cantidad de países por cada continente.  
+   - País con mayor y menor población.
+   - Promedio de población.  
+   - Promedio de superficie.  
+   - Cantidad de países por cada continente.  
 
 
 ## Instrucciones de uso  
@@ -23,53 +23,56 @@ Ejecuta el programa principal **main.py**
 
 Se mostrará el siguiente menú principal:
 
- -[1]: Buscar un país por nombre
- -[2]: Filtrar países
- -[3]: Ordenar países
- -[4]: Mostrar estadísticas
- -[0]: Salir
+ - [1]: Buscar un país por nombre
+ - [2]: Filtrar países
+ - [3]: Ordenar países
+ - [4]: Mostrar estadísticas
+ - 0: Salir
+
 Ingrese la opción deseada y siga las instrucciones del programa.
 
-Presione ENTER cuando el programa lo indique para continuar o volver al menú principal.
+*Presione ENTER cuando el programa lo indique para continuar o volver al menú principal.*
 
-## Ejemplos de entradas y salidas
--  [1] Buscar un país por nombre
-  - **ENTRADA**
-    Arg
-  - **SALIDA**
-    ----------Argentina-----------
-    Poblacion: 45376763
-    Superficie: 2780400 km cuadrados
-    Continente: América
-    
-    ENTER para volver al menú
+## Ejemplos de entradas y salidas  
 
--  [2] Filtrar países
-  - **ENTRADA**
-    1 (por continente)
-  - **SALIDA**
-    =========================================
-    ------FILTRAR PAÍSES POR CONTINENTE------
-    =========================================
-    Ingrese el continente que desea filtrar
-    [1]: África
-    [2]: América
-    [3]: Asia
-    [4]: Europa
-    [5]: Oceanía
-    
-  - **ENTRADA**
-  5 (Oceania)
-  - **SALIDA**
-  ----------Australia-----------
-  Poblacion: 25788217
-  Superficie: 7692024 km cuadrados
-  Continente: Oceanía
-  
-  ----------Nueva Zelanda-----------
-  Poblacion: 5265100
-  Superficie: 268021 km cuadrados
-  Continente: Oceanía
+### [1] Buscar un país por nombre  
+**ENTRADA:**  
+Arg  
+
+**SALIDA:**  
+----------Argentina-----------  
+Población: 45376763  
+Superficie: 2780400 km cuadrados  
+Continente: América  
+
+ENTER para volver al menú 
+
+
+### [2] Filtrar países
+**ENTRADA:**  
+1 (Por continente)  
+
+**SALIDA:**  
+Ingrese el continente que desea filtrar  
+[1]: África  
+[2]: América  
+[3]: Asia  
+[4]: Europa  
+[5]: Oceanía  
+
+**ENTRADA:**  
+5 (Oceanía)  
+
+**SALIDA:**  
+----------Australia-----------  
+Población: 25788217  
+Superficie: 7692024 km cuadrados  
+Continente: Oceanía  
+
+----------Nueva Zelanda-----------  
+Población: 5265100  
+Superficie: 268021 km cuadrados  
+Continente: Oceanía  
 
 ## Participación de los integrantes
 - **Franco Sampieri**
