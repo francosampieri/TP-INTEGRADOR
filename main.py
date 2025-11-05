@@ -148,7 +148,6 @@ def ordenar_por_nombre(dataset_paises):
 
     dataset_ordenado = sorted(dataset_paises, key=obtener_nombre, reverse= descendente)
 
-    print("\nLista de paises ordenada:\n")
     for pais in dataset_ordenado:
         imprimir_pais(pais)
 
@@ -169,8 +168,7 @@ def ordenar_por_poblacion(dataset_paises):
         return pais["poblacion"]
 
     dataset_ordenado = sorted(dataset_paises, key=obtener_poblacion, reverse= descendente)
-
-    print("\nLista de paises ordenada:\n")
+   
     for pais in dataset_ordenado:
         imprimir_pais(pais)
 
@@ -192,7 +190,6 @@ def ordenar_por_superficie(dataset_paises):
 
     dataset_ordenado = sorted(dataset_paises, key=obtener_superficie, reverse= descendente)
 
-    print("\nLista de paises ordenada:\n")
     for pais in dataset_ordenado:
         imprimir_pais(pais)
 
