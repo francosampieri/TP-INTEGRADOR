@@ -23,11 +23,11 @@ Ejecuta el programa principal **main.py**
 
 Se mostrará el siguiente menú principal:
 
-[1]: Buscar un país por nombre
-[2]: Filtrar países
-[3]: Ordenar países
-[4]: Mostrar estadísticas
-[0]: Salir
+ -[1]: Buscar un país por nombre
+ -[2]: Filtrar países
+ -[3]: Ordenar países
+ -[4]: Mostrar estadísticas
+ -[0]: Salir
 Ingrese la opción deseada y siga las instrucciones del programa.
 
 Presione ENTER cuando el programa lo indique para continuar o volver al menú principal.
@@ -72,27 +72,27 @@ Presione ENTER cuando el programa lo indique para continuar o volver al menú pr
   Continente: Oceanía
 
 ## Participación de los integrantes
--**Franco Sampieri**
- -Creación de funcion *filtrar_países*
- -Creación de README.me
+- **Franco Sampieri**
+  - Creación de funcion *filtrar_países*
+  - Creación de README.me
 
--**Renzo Victoria**
- -Creacion de funcion *buscar_país*
- -Edición de video
+- **Renzo Victoria**
+  - Creacion de funcion *buscar_país*
+  - Edición de video
 
--**Tomas Martinez**
- -Creacion de función *ordenar_paises*
- -Creacion de menú
+- **Tomas Martinez**
+  - Creacion de función *ordenar_paises*
+  - Creacion de menú
 
--**Mauro Di Pietro**
- -Creacion de funcion *mostrar_estadisticas*
- -Testeo de codigo y corrección
+- **Mauro Di Pietro**
+  - Creacion de funcion *mostrar_estadisticas*
+  - Testeo de codigo y corrección
 
--**Alam Gonzalez**
- -Creacion de *funciones.py*
- -Creación de mayor parte del informe
+- **Alam Gonzalez**
+  - Creacion de *funciones.py*
+  - Creación de mayor parte del informe
 
--**Felipe Videla**
- -Creación de csv y dataset
- -Creación de esquema del flujo
+- **Felipe Videla**
+  - Creación de csv y dataset
+  - Creación de esquema del flujo
  
