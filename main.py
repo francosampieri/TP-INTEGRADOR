@@ -64,6 +64,7 @@ def filtrar_por_continente(dataset_paises):
 
     #list con todos los paises del continente elegido
     paises_en_continente = [pais for pais in dataset_paises if pais["continente"] == dict_continente[eleccion_continente]]
+
     if not paises_en_continente: #por si elige un continente sin paises (imposible)
         print(f"No hay paises del continente {dict_continente[eleccion_continente]} en la base de datos.")
         return
@@ -93,6 +94,7 @@ def filtrar_por_superficie(dataset_paises):
     print("=" * 41)
     print("------FILTRAR PAÍSES POR SUPERFICIE------")
     print("=" * 41)
+    
     print("Ingrese el rango para filtrar la superficie")
     rango_inferior = pedir_int_rango("Desde: ", 0)
     rango_superior = pedir_int_rango("Hasta: ", rango_inferior+1)
@@ -225,6 +227,7 @@ def promedio_poblacion(dataset_paises):
     poblaciones = [pais["poblacion"] for pais in dataset_paises] #crea list con las poblaciones de los paises
     media_poblacion = round(mean(poblaciones), 1)
     print(f"La media de poblacion de los paises en la base de datos es de {media_poblacion} personas")
+   
     print() #salto de linea
     input("ENTER para siguiente estadistica ")
     print() #salto de linea
@@ -249,6 +252,7 @@ def paises_por_continente(dataset_paises):
 
     continentes_list = ["África", "América", "Asia", "Europa", "Oceanía"]
     for continente in continentes_list:
+
         #crea list con los paises en el continente
         paises_en_continente = [pais["continente"] for pais in dataset_paises if pais["continente"] == continente]
         print(f"{continente}: {len(paises_en_continente)} países")
